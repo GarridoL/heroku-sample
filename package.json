@@ -18,5 +18,8 @@
   "homepage": "https://github.com/LGarrido0708/heroku-sample#readme",
   "engines": {
     "node": "10.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
