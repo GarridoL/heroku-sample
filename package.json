@@ -1,0 +1,22 @@
+{
+  "name": "heroku-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LGarrido0708/heroku-sample.git"
+  },
+  "author": "Lalaine Garrido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LGarrido0708/heroku-sample/issues"
+  },
+  "homepage": "https://github.com/LGarrido0708/heroku-sample#readme",
+  "engines": {
+    "node": "10.15"
+  }
+}
