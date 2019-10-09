@@ -65,7 +65,7 @@ $(document).ready(function () {
 		event.preventDefault();
 		var date = new Date();
 		var time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-		client.publish("lalaine/fan/status", $('p').html() + time);
+		client.publish("lalaine/fan/status", $('p').html() +" " +  time);
 		console.log("Topic: lalaine/fan/status", "Payload: " + $('p').html() +" "+ time);
 	})
 })
